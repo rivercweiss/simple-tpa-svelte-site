@@ -146,7 +146,13 @@
   .stats-grid {
     display: grid;
     gap: var(--space-6);
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 640px) {
+    .stats-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 
   .stat-card {

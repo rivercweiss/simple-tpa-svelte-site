@@ -91,7 +91,6 @@
           {#each navigation as item}
             <a href={item.href} class="mobile-nav-link" onclick={closeMobileMenu}>{item.name}</a>
           {/each}
-          <a href="/contact" class="mobile-nav-link" onclick={closeMobileMenu}>Contact</a>
           <a href="/contact" class="contact-btn mobile-cta" onclick={closeMobileMenu}>
             Get Started
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">

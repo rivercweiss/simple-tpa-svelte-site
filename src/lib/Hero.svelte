@@ -120,7 +120,9 @@
 <style>
   .hero {
     position: relative;
-    min-height: 100vh;
+    min-height: fit-content;
+    padding-top: 5%;
+    padding-bottom: 5%;
     display: flex;
     align-items: center;
     background: linear-gradient(180deg, var(--color-bg-primary) 0%, var(--color-bg-secondary) 100%);

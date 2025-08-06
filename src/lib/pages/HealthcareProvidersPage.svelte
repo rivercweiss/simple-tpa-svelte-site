@@ -217,7 +217,6 @@
         </p>
         <div class="cta-buttons">
           <a href="/contact" class="btn-primary">Start Registration</a>
-          <a href="#" class="btn-secondary">Download Brochure</a>
         </div>
       </div>
     </div>
